@@ -99,7 +99,7 @@ class MainActivity : ComponentActivity() {
                 val connection = (URL("https://api-inference.huggingface.co/models/jonatasgrosman/wav2vec2-large-xlsr-53-russian").openConnection() as HttpURLConnection).apply {
                     doOutput = true
                     requestMethod = "POST"
-                    setRequestProperty("Authorization", "Bearer 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")
+                    setRequestProperty("Authorization", "Bearer i deleteted pre publish repo")
                     setRequestProperty("Content-Type", "audio/flac")
                 }
 
